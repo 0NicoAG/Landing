@@ -1,0 +1,56 @@
+#container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+body {
+background-color: grey;
+}
+
+h1 {
+    margin-left: 60px;
+    font-size: 40px;
+    border-bottom: 2px solid red;
+    width: 21%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+    width: 30%;
+    margin: 1.4%;
+    height: 500px;
+    border-radius: 15px;
+    transition: 1.5s; /*velocidad cuando te apoyas en una img */
+    object-fit: cover; /*ajusta la img dentro del container p q no se deforme */
+    
+    
+    
+}
+
+#contacto {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 20px;
+    
+    
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.contacto:hover{
+    color: black;
+}
+
